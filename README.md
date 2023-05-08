@@ -43,4 +43,20 @@ By oversampling the data set, the accuracy of predicting high-risk and healhty l
 
 ### Libraries
 
+#### sklearn
+
+```py
+from sklearn.metrics import balanced_accuracy_score
+from sklearn.metrics import confusion_matrix
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+```
+
+#### imblearn
+
+```py
+from imblearn.metrics import classification_report_imbalanced
+from imblearn.over_sampling import RandomOverSampler
+```
+
 *Starter code provided by edX.*

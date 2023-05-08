@@ -41,6 +41,8 @@ By oversampling the data set, the accuracy of predicting high-risk and healhty l
 
 ## Code 
 
+Read the code: [credit_risk_resampling.ipynb](credit_risk_resampling.ipynb)
+
 ### Libraries
 
 #### sklearn
